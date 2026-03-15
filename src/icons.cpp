@@ -94,11 +94,11 @@ const icon<14, 10> wireless_2({
 const icon<14, 10> wireless_3({
     std::bitset<14>("00000000000000"),
     std::bitset<14>("00000000000000"),
-    std::bitset<14>("00000111100000"),
-    std::bitset<14>("00011000011000"),
+    std::bitset<14>("00000000000000"),
+    std::bitset<14>("00001111110000"),
+    std::bitset<14>("00010000001000"),
     std::bitset<14>("00100000000100"),
-    std::bitset<14>("00100000000100"),
-    std::bitset<14>("00000111100000"),
+    std::bitset<14>("00100111100100"),
     std::bitset<14>("00001000010000"),
     std::bitset<14>("00000011000000"),
     std::bitset<14>("00000011000000"),
@@ -106,18 +106,30 @@ const icon<14, 10> wireless_3({
 
 
 const icon<14, 10> wireless_4({
-    std::bitset<14>("00001111110000"),
+    std::bitset<14>("00111111111100"),
     std::bitset<14>("01000000000010"),
-    std::bitset<14>("10000111100001"),
-    std::bitset<14>("10011000011001"),
+    std::bitset<14>("10000000000001"),
+    std::bitset<14>("10001111110001"),
+    std::bitset<14>("00010000001000"),
     std::bitset<14>("00100000000100"),
-    std::bitset<14>("00100000000100"),
-    std::bitset<14>("00000111100000"),
+    std::bitset<14>("00100111100100"),
     std::bitset<14>("00001000010000"),
     std::bitset<14>("00000011000000"),
     std::bitset<14>("00000011000000"),
 });
 
+
+/* PC monitor ikona (10 × 8) */
+const icon<10, 8> pc_monitor({
+	std::bitset<10>("1111111111"),
+	std::bitset<10>("1000000001"),
+	std::bitset<10>("1000000001"),
+	std::bitset<10>("1000000001"),
+	std::bitset<10>("1111111111"),
+	std::bitset<10>("0000110000"),
+	std::bitset<10>("0000110000"),
+	std::bitset<10>("0011111100"),
+});
 
 /* Kulicka (puntik vybrano) */
 const icon<7, 7> dot_filled({

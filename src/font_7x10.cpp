@@ -962,12 +962,12 @@ static const std::array<ch, 95> font_data = {
     ch({
         std::bitset<7>("0001000"),
         std::bitset<7>("0000000"),
+        std::bitset<7>("0011000"),
+        std::bitset<7>("0001000"),
+        std::bitset<7>("0001000"),
+        std::bitset<7>("0001000"),
+        std::bitset<7>("0001000"),
         std::bitset<7>("0011100"),
-        std::bitset<7>("0001000"),
-        std::bitset<7>("0001000"),
-        std::bitset<7>("0001000"),
-        std::bitset<7>("0001000"),
-        std::bitset<7>("0001000"),
         std::bitset<7>("0000000"),
         std::bitset<7>("0000000")
     }),
@@ -1027,7 +1027,7 @@ static const std::array<ch, 95> font_data = {
     ch({
         std::bitset<7>("0000000"),
         std::bitset<7>("0000000"),
-        std::bitset<7>("0010110"),
+        std::bitset<7>("0011110"),
         std::bitset<7>("0110010"),
         std::bitset<7>("0100010"),
         std::bitset<7>("0100010"),

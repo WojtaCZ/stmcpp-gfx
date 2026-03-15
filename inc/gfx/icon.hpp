@@ -68,6 +68,9 @@ extern const gfx::icon<14, 10> wireless_2;
 extern const gfx::icon<14, 10> wireless_3;
 extern const gfx::icon<14, 10> wireless_4;
 
+// PC icon
+extern const gfx::icon<10, 8> pc_monitor;
+
 // UI icons
 extern const gfx::icon<7, 7> dot_filled;
 extern const gfx::icon<7, 7> dot_outline;
