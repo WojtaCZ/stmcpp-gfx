@@ -78,9 +78,19 @@ extern const gfx::icon<7, 7> arrow_up;
 extern const gfx::icon<7, 7> arrow_down;
 extern const gfx::icon<8, 9> arrow_left_empty;
 extern const gfx::icon<8, 9> arrow_left_filled;
+extern const gfx::icon<7, 7> back_filled;
+extern const gfx::icon<7, 7> back_outline;
 extern const gfx::icon<9, 9> checkbox_empty;
 extern const gfx::icon<9, 9> checkbox_empty_checked;
 extern const gfx::icon<9, 9> checkbox_filled;
 extern const gfx::icon<9, 9> checkbox_filled_checked;
+
+// Player buttons: normal and inverted (= selected)
+extern const gfx::icon<21, 13> btn_stop_normal;
+extern const gfx::icon<21, 13> btn_stop_selected;
+extern const gfx::icon<21, 13> btn_repeat_normal;
+extern const gfx::icon<21, 13> btn_repeat_selected;
+extern const gfx::icon<21, 13> btn_play_normal;
+extern const gfx::icon<21, 13> btn_play_selected;
 
 #endif
